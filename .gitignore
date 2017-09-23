@@ -1,3 +1,6 @@
+node_modules
+fabric-tools/fabric-scripts/hlfv1/composer
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db

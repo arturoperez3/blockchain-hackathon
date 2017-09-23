@@ -1,0 +1,26 @@
+{
+  "name": "blockchain-hackathon",
+  "version": "1.0.0",
+  "description": "blockchain hackathon proj",
+  "main": "server.js",
+  "dependencies": {
+    "composer-admin": "^0.13.0",
+    "composer-client": "^0.13.0",
+    "composer-rest-server": "^0.12.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cktang88/blockchain-hackathon.git"
+  },
+  "author": "cktang88",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cktang88/blockchain-hackathon/issues"
+  },
+  "homepage": "https://github.com/cktang88/blockchain-hackathon#readme"
+}

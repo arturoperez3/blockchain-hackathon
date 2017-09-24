@@ -15,7 +15,7 @@ concept HospitalExpenses {
 asset Bill identified by billID {
   o String billID
   o String patientID
-  o String adminID
+  o String moneyID
   o Double amount
   o Boolean paid
 }
@@ -47,4 +47,3 @@ transaction SendBill {
 transaction PayBill {
   o Bill bill
 }
-

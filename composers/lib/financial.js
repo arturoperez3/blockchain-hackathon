@@ -67,6 +67,7 @@
                     return patientRegistry.get(ID).then(function(patient){
                         console.log("BBB");
                         patient.balanceDue -= amt;
+                        oldBill.bill.paid = true;
                         return patientRegistry.update(patient);
                     })
                 })

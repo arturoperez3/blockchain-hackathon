@@ -1,0 +1,12 @@
+
+
+namespace org.acme.logistics
+
+concept Appointments{
+	o DateTime time
+	o DateTime realTime
+}
+
+concept Resources{
+	
+}
